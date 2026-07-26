@@ -99,12 +99,3 @@ To deploy: connect the repo on Streamlit Community Cloud
 (share.streamlit.io), and add `GROQ_API_KEY` as a secret in the app's
 settings (Streamlit Cloud uses its own secrets manager, not `.env`).
 
-## For the report
-
-- `notebooks/exploration.md` has suggested EDA angles (class balance, article
-  length distributions, common words per class)
-- `models/confusion_matrix.png`, `metrics.png`, and `class_balance.png` are
-  ready to drop directly into the report
-- Worth naming as a limitation: the dataset is a few years old and skews
-  toward US political news, so it may generalize less well to very recent or
-  non-political topics
